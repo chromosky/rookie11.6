@@ -22,7 +22,7 @@ $(document).ready(function(){
         countriesList.empty();
         var i = 1;
         resp.forEach(function(item){
-            $('<li>').text(i++ + ' ' + item.name).appendTo(countriesList);
+            $('<li>').text(item.name).appendTo(countriesList);
         });
     }  
     
