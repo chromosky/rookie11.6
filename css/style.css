@@ -1,0 +1,52 @@
+body {
+    background-color: #313234;
+}
+
+div {
+    max-width: 1200px;
+    background: #abc;
+    padding: 50px 25px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px; 
+    margin-bottom: 25px;    
+}
+
+h3 {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+#search {
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #000;
+    color: #fff;
+    margin: 35px auto 0;
+    padding: 10px;
+    display: block;
+   
+}
+
+#country-name {
+    margin-bottom: 25px;
+}
+
+#countries {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: green;
+    font-size: 18px;
+}
